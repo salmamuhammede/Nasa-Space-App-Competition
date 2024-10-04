@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@400;700;900&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+html, body {
+    height: 100%; /* Ensure full height */
+    width: 100%; /* Ensure full width */
+    overflow-x: hidden; /* Prevent horizontal overflow */
+}
+
+body {
+    background-color: #000000; /* Background color */
+}
+
+.Home {
+    min-height: 100vh; /* Full viewport height */
+    width: 100vw; /* Full viewport width */
+    background-image: url(../../assets/home3.jpg);
+    background-size: cover; /* Cover the entire area */
+    background-position: center; /* Center the background image */
+    background-repeat: no-repeat; /* Prevent the image from repeating */
+    display: flex; /* Use flexbox for alignment */
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 150px;
+}
+
+.cinzel-decorative-regular,
+.cinzel-decorative-bold,
+.cinzel-decorative-black {
+    font-family: "Cinzel Decorative", serif;
+}
+
+.word {
+    margin: 0;
+    font-size: 40px;
+    color: aliceblue;
+    letter-spacing: 0.1em;
+    font-family: 'Cinzel Decorative', serif; /* Ensure this has sufficient specificity */
+    font-weight: 700;
+}
+
+
+.Choice_Buttons {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 40px;
+}
+
+.little {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 40px;
+}
+
+.little img {
+    width: 190px;
+    height: 150px;
+    border-radius: 15px; /* Rounded corners for the image */
+    object-fit: cover; /* Ensure the image covers the area without distortion */
+}
