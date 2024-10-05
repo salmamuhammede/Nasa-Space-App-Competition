@@ -5,6 +5,7 @@ import About from './components/About/About.js'
 import Sheet from './components/Sheet/Sheet.js'
 import Ebook from './components/Ebook/Ebook.js'
 import Game from './components/Game/Game.js'
+import AI from './components/AI/AI.js'
 import './App.css';
 
 function App() {
@@ -20,6 +21,7 @@ function App() {
             <Route exact path="/Sheet" element={<Sheet />} />
             <Route exact path="/Game" element={<Game />} />
 	          <Route exact path="/Ebook" element={<Ebook />} />
+            <Route exact path="/AI" element={<AI/>} />
           </Routes>
         </div>
       </div>

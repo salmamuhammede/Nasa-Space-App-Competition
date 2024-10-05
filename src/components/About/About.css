@@ -1,24 +1,16 @@
 
   .About {
-    min-height: 100vh;
-    width: 85vw;
-    max-width: 1900px;
-    margin: 0rem auto;
-  }
-
-  .About{
+    min-height: 100vh; /* Full viewport height */
+    width: 100vw; /* Full viewport width */
     background-image: url(../../assets/home.jpg);
-    width: auto;
-    height: auto;
-    background-size: cover;
-  }
-  .About {
-    height: 100vh; /* Full viewport height */
-    display: flex;
+    background-size: cover; /* Cover the entire area */
+    background-position: center; /* Center the background image */
+    background-repeat: no-repeat; /* Prevent the image from repeating */
+    display: flex; /* Use flexbox for alignment */
     justify-content: center; /* Center horizontally */
     align-items: center; /* Center vertically */
   }
-  
+
   .main2 {
     display: flex;
     flex-direction:column;

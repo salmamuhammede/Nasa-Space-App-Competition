@@ -12,14 +12,10 @@ function About() {
         <div className="About">
             <div className="main2" align="center">
             <img src={logo} alt="logo" style={{ width: "550px", height: "150px" }} />
-
-
                 <div className="Cards_About">
                 <div class="cards__inner">
                     <div class="cards__card card">
                         <img src={Sara} alt="Sara Gamal" />
-
-
 
                         <p class="card__price">Mechanical Power Engineer</p>
                     </div>
@@ -29,7 +25,6 @@ function About() {
                 <div class="cards__inner">
                     <div class="cards__card card">
                         <img src={Salma} alt="Salma Muhammed" />
-
 
                         <p class="card__price">AI Engineer</p>
                     </div>
@@ -49,8 +44,6 @@ function About() {
                 <div class="cards__inner">
                     <div class="cards__card card">
                         <img src={Abdelrahman} alt="Abdelrahman Essa" />
-
-
 
                         <p class="card__price">Embedded Software Engineer</p>
                     </div>

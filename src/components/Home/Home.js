@@ -33,9 +33,11 @@ function Home() {
             <div className="little">
             <img src={team} alt="logo" style={{ width: "190px", height: "150px" }} />
             <Link to="/About"><SparkleButton text="About" /> </Link></div>
+
             <div className="little"> 
             <img src={robot} alt="logo" style={{ width: "190px", height: "150px" }} />
-                <SparkleButton text="AI" /></div>
+                <Link to="/AI"><SparkleButton text="AI" /></Link>
+                </div>
         </div>
      
     

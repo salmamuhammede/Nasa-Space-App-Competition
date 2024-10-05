@@ -1,0 +1,106 @@
+
+
+  .AI{
+    min-height: 100vh; /* Full viewport height */
+    width: 100vw; /* Full viewport width */
+    background-image: url(../../assets/AI.jpg);
+    background-size: cover; /* Cover the entire area */
+    background-position: center; /* Center the background image */
+    background-repeat: no-repeat; /* Prevent the image from repeating */
+    display: flex; /* Use flexbox for alignment */
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+  }
+
+  .mainAI {
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    justify-content: center;
+    gap:50px;
+  }
+  .container1 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 100px;
+    color: white;
+    position: relative;
+    font-family: sans-serif;
+    width: 100%; /* Full width */
+    max-width: 1500px; /* Adjust as needed */
+  }
+  
+  .container1::before,
+  .container1::after {
+    content: "";
+    background-color: #fab5704c;
+    position: absolute;
+  }
+  
+  .container1::before {
+    border-radius: 50%;
+    width: 6rem;
+    height: 6rem;
+    top: 30%;
+    right: 7%;
+  }
+  
+  .container1::after {
+    height: 3rem;
+    top: 8%;
+    right: 5%;
+    border: 1px solid;
+  }
+  
+  .container1 .box {
+    width: 720px;
+    height: 720px;
+    padding: 1rem;
+    background-color: rgba(255, 255, 255, 0.0074);
+    border: 1px solid rgba(255, 255, 255, 0.222);
+    -webkit-backdrop-filter: blur(20px);
+    backdrop-filter: blur(20px);
+    border-radius: 0.7rem;
+    transition: all ease 0.3s;
+    display: flex;
+    flex-direction: column; /* Keep left, middle, and right in a row */
+    justify-content: space-between; /* Space between sections */
+    gap: 20px;
+  }
+  .wordss{
+    font-family: 'Cinzel Decorative', serif;
+  }
+  .container1 .box:hover {
+    box-shadow: 0px 0px 20px 1px #ffbb763f;
+    border: 1px solid rgba(255, 255, 255, 0.454);
+  }
+  
+
+  
+
+  
+  .custom-file-upload {
+    cursor: pointer;
+    background-color: #007bff;
+    color: white;
+    border-radius: 5px;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .custom-file-upload:hover {
+    background-color: #0056b3;
+  }
+  
+  .upload{
+    width:300px;
+    
+  }
+  .imgdef{
+    display:flex;
+    flex-direction: column;
+    gap:15px;
+  }
+    
