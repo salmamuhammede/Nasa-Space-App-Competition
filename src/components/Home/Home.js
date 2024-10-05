@@ -22,9 +22,8 @@ function Home() {
 
             <div className="little">
             <img src={ebook} alt="logo" style={{ width: "190px", height: "150px" }} />
-                 <SparkleButton text="Ebook" />
-                 </div>
-       
+            <Link to="/Ebook"><SparkleButton text="Ebook" /> </Link></div>
+     
             <div className="little">
             <img src={puzzle} alt="logo" style={{ width: "190px", height: "150px" }} />
             <Link to="/Game"><SparkleButton text="Game" /> </Link></div>
