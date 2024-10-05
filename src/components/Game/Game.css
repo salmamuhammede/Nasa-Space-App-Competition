@@ -1,0 +1,21 @@
+#puzzleContainer {
+    display: grid;
+    grid-template-columns: repeat(3, 100px);
+    grid-template-rows: repeat(3, 100px);
+    gap: 1px;
+  }
+  
+  .puzzle-piece {
+    width: 100%;
+    height: auto;
+    cursor: grab;
+  }
+  
+  
+  button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+

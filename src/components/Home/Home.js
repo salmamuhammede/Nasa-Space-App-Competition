@@ -1,7 +1,7 @@
 import "./Home.css";
 import { Link } from "react-router-dom"; // Import Link for navigation
 import ebook from "../../assets/ebook.jpg";
-import puzzel from "../../assets/puzzel.jpg";
+import puzzle from "../../assets/puzzel.jpg";
 import robot from "../../assets/robot.jpg";
 import team from "../../assets/team.jpg";
 import coloring from "../../assets/coloring.jpg";
@@ -26,11 +26,11 @@ function Home() {
                  </div>
        
             <div className="little">
-            <img src={puzzel} alt="logo" style={{ width: "190px", height: "150px" }} />
-                <SparkleButton text="Game" /></div>
+            <img src={puzzle} alt="logo" style={{ width: "190px", height: "150px" }} />
+            <Link to="/Game"><SparkleButton text="Game" /> </Link></div>
             <div className="little">
             <img src={coloring} alt="logo" style={{ width: "190px", height: "150px" }} />
-                <SparkleButton text="Sheets" /></div>
+            <Link to="/Sheet"><SparkleButton text="Sheets" /> </Link></div>
             <div className="little">
             <img src={team} alt="logo" style={{ width: "190px", height: "150px" }} />
             <Link to="/About"><SparkleButton text="About" /> </Link></div>
