@@ -16,7 +16,7 @@ function About() {
                 <div class="cards__inner">
                     <div class="cards__card card">
                         <img src={Sara} alt="Sara Gamal" />
-
+			<p class="card__price">Sara Gamal</p>
                         <p class="card__price">Mechanical Power Engineer</p>
                     </div>
                     <div class="overlay cards__inner"></div>
@@ -25,7 +25,7 @@ function About() {
                 <div class="cards__inner">
                     <div class="cards__card card">
                         <img src={Salma} alt="Salma Muhammed" />
-
+			<p class="card__price">Salma Muhammed</p>
                         <p class="card__price">AI Engineer</p>
                     </div>
                     <div class="overlay cards__inner"></div>
@@ -34,8 +34,7 @@ function About() {
                 <div class="cards__inner">
                     <div class="cards__card card">
                         <img src={Erini} alt="Erini Hosny" />
-
-
+			<p class="card__price">Erini Hosny</p>
                         <p class="card__price">Electronics Engineer</p>
                     </div>
                     <div class="overlay cards__inner"></div>
@@ -44,7 +43,7 @@ function About() {
                 <div class="cards__inner">
                     <div class="cards__card card">
                         <img src={Abdelrahman} alt="Abdelrahman Essa" />
-
+			<p class="card__price">Abdelrahman Essa</p>
                         <p class="card__price">Embedded Software Engineer</p>
                     </div>
                     <div class="overlay cards__inner"></div>

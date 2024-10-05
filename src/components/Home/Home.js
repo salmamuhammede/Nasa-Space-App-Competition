@@ -1,9 +1,9 @@
 import "./Home.css";
 import { Link } from "react-router-dom"; // Import Link for navigation
-import ebook from "../../assets/ebook.jpg";
-import puzzle from "../../assets/puzzel.jpg";
-import robot from "../../assets/robot.jpg";
-import team from "../../assets/team.jpg";
+import ebook from "../../assets/ebook.jpeg";
+import puzzle from "../../assets/puzzle.png";
+import robot from "../../assets/robot.jpeg";
+import team from "../../assets/team.jpeg";
 import coloring from "../../assets/coloring.jpg";
 import SparkleButton from "../button/Button";
 // import SparkleButton from "../button/Button";
